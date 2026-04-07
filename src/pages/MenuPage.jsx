@@ -2,12 +2,18 @@ import { Link } from "react-router-dom";
 import DarkMenuSection from "../components/DarkMenuSection";
 import MenuSection from "../components/MenuSection";
 import OptimizedImage from "../components/OptimizedImage";
+import Seo from "../components/Seo";
 import SharedFooter from "../components/SharedFooter";
 import { menuItems } from "../data/siteData";
 
 function MenuPage({ currentYear }) {
   return (
     <>
+      <Seo
+        title="Menu | Algiers Fusion"
+        description="Parcourez le menu Algiers Fusion a Alger avec inspirations algeriennes, americaines et europeennes."
+        path="/menu"
+      />
       <header className="menu-hero" id="menu-hero">
         <div className="menu-pattern" />
         <div className="container menu-hero-grid">

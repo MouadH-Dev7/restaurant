@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import OptimizedImage from "../components/OptimizedImage";
+import Seo from "../components/Seo";
 import SectionHeader from "../components/SectionHeader";
 import SharedFooter from "../components/SharedFooter";
 import { faqItems, infoItems } from "../data/siteData";
@@ -18,6 +19,11 @@ function ReservationsPage({ currentYear }) {
 
   return (
     <>
+      <Seo
+        title="Reservations | Algiers Fusion"
+        description="Reserve your table at Algiers Fusion in Algiers. Consultez les informations pratiques et demandez votre reservation en ligne."
+        path="/reservations"
+      />
       <section className="reservation-hero" id="reservations-hero">
         <div className="reservation-hero-media">
           <OptimizedImage

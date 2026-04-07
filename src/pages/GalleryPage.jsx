@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import OptimizedImage from "../components/OptimizedImage";
+import Seo from "../components/Seo";
 import SectionHeader from "../components/SectionHeader";
 import SharedFooter from "../components/SharedFooter";
 import { galleryImages } from "../data/siteData";
@@ -7,6 +8,12 @@ import { galleryImages } from "../data/siteData";
 function GalleryPage({ currentYear }) {
   return (
     <>
+      <Seo
+        title="Galerie | Algiers Fusion"
+        description="Découvrez la galerie photo du restaurant Algiers Fusion a Alger: salle, plats signatures, desserts et ambiance."
+        path="/gallery"
+        image={galleryImages[0][0]}
+      />
       <header className="menu-hero gallery-hero" id="gallery-hero">
         <div className="menu-pattern" />
         <div className="container menu-hero-grid">

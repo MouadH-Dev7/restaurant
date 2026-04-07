@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import OptimizedImage from "../components/OptimizedImage";
+import Seo from "../components/Seo";
 import SectionHeader from "../components/SectionHeader";
 import SharedFooter from "../components/SharedFooter";
 import { galleryImages, infoItems, previewTabs } from "../data/siteData";
@@ -10,6 +11,11 @@ function HomePage({ currentYear }) {
 
   return (
     <>
+      <Seo
+        title="Algiers Fusion | Restaurant a Alger"
+        description="Decouvrez Algiers Fusion, un restaurant a Alger avec cuisine elegante, galerie culinaire et reservation en ligne."
+        path="/"
+      />
       <header className="hero" id="hero">
         <div className="hero-overlay" />
         <div className="hero-image" />

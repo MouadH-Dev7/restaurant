@@ -10,8 +10,8 @@ function MenuPage({ currentYear }) {
   return (
     <>
       <Seo
-        title="Menu | Algiers Fusion"
-        description="Parcourez le menu Algiers Fusion a Alger avec inspirations algeriennes, americaines et europeennes."
+        title="Menu du restaurant | Algiers Fusion Alger"
+        description="Parcourez le menu du restaurant Algiers Fusion a Alger avec inspirations algeriennes, americaines et europeennes."
         path="/menu"
       />
       <header className="menu-hero" id="menu-hero">

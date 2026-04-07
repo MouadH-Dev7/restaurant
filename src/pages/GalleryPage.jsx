@@ -9,10 +9,9 @@ function GalleryPage({ currentYear }) {
   return (
     <>
       <Seo
-        title="Galerie | Algiers Fusion"
-        description="Découvrez la galerie photo du restaurant Algiers Fusion a Alger: salle, plats signatures, desserts et ambiance."
+        title="Galerie photo | Algiers Fusion Alger"
+        description="Decouvrez la galerie photo d'Algiers Fusion a Alger : salle, plats signatures, desserts et ambiance du restaurant."
         path="/gallery"
-        image={galleryImages[0][0]}
       />
       <header className="menu-hero gallery-hero" id="gallery-hero">
         <div className="menu-pattern" />

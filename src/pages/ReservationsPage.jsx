@@ -20,8 +20,8 @@ function ReservationsPage({ currentYear }) {
   return (
     <>
       <Seo
-        title="Reservations | Algiers Fusion"
-        description="Reserve your table at Algiers Fusion in Algiers. Consultez les informations pratiques et demandez votre reservation en ligne."
+        title="Reservation en ligne | Algiers Fusion Alger"
+        description="Reservez votre table chez Algiers Fusion a Alger et consultez les informations pratiques avant votre visite."
         path="/reservations"
       />
       <section className="reservation-hero" id="reservations-hero">

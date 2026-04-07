@@ -12,8 +12,8 @@ function HomePage({ currentYear }) {
   return (
     <>
       <Seo
-        title="Algiers Fusion | Restaurant a Alger"
-        description="Decouvrez Algiers Fusion, un restaurant a Alger avec cuisine elegante, galerie culinaire et reservation en ligne."
+        title="Algiers Fusion | Restaurant gastronomique a Alger"
+        description="Decouvrez Algiers Fusion, restaurant gastronomique a Alger, avec cuisine elegante, galerie culinaire et reservation en ligne."
         path="/"
       />
       <header className="hero" id="hero">

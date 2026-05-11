@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function Seo({ title, description, path = "/", image }) {
   useEffect(() => {
-    const baseUrl = "https://restaurant.mouadh-dev.workers.dev";
+    const baseUrl = "https://khalo-fodil.mouadh-dev.workers.dev";
     const url = `${baseUrl}${path}`;
     const fallbackImage = `${baseUrl}/og-image.svg`;
     const finalImage = image || fallbackImage;

@@ -9,8 +9,8 @@ function GalleryPage({ currentYear }) {
   return (
     <>
       <Seo
-        title="Galerie photo | Algiers Fusion Alger"
-        description="Decouvrez la galerie photo d'Algiers Fusion a Alger : salle, plats signatures, desserts et ambiance du restaurant."
+        title="Galerie photo | khalo fodil Alger"
+        description="Decouvrez la galerie photo de khalo fodil a Alger : salle, plats signatures, desserts et ambiance du restaurant."
         path="/gallery"
       />
       <header className="menu-hero gallery-hero" id="gallery-hero">
@@ -18,7 +18,7 @@ function GalleryPage({ currentYear }) {
         <div className="container menu-hero-grid">
           <div className="menu-hero-copy">
             <span className="eyebrow">Visual Journey</span>
-            <h1>Galerie <span>Algiers Fusion</span></h1>
+            <h1>Galerie <span>khalo fodil</span></h1>
             <p>Un parcours visuel entre architecture feutree, cuisine d&apos;auteur et instants de service qui racontent l&apos;identite du restaurant.</p>
             <div className="hero-actions left">
               <Link className="button button-primary" to="/reservations">Book a Table</Link>

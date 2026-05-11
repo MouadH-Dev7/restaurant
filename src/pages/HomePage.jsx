@@ -12,17 +12,17 @@ function HomePage({ currentYear }) {
   return (
     <>
       <Seo
-        title="Algiers Fusion | Restaurant gastronomique a Alger"
-        description="Decouvrez Algiers Fusion, restaurant gastronomique a Alger, avec cuisine elegante, galerie culinaire et reservation en ligne."
+        title="khalo fodil | Restaurant gastronomique a Alger"
+        description="Decouvrez khalo fodil, restaurant gastronomique a Alger, avec cuisine elegante, galerie culinaire et reservation en ligne."
         path="/"
       />
       <header className="hero" id="hero">
         <div className="hero-overlay" />
         <div className="hero-image" />
         <div className="container hero-content">
-          <span className="eyebrow hero-eyebrow">Bienvenue chez Algiers Fusion</span>
+          <span className="eyebrow hero-eyebrow">Bienvenue chez khalo fodil</span>
           <h1>Une experience culinaire inoubliable</h1>
-          <p>Algiers Fusion marie l'elegance des grandes tables, l'ame algerienne et l'energie d'Alger, capitale de l'Algerie, pour offrir une destination culinaire memorisable.</p>
+          <p>khalo fodil marie l'elegance des grandes tables, l'ame algerienne et l'energie d'Alger, capitale de l'Algerie, pour offrir une destination culinaire memorisable.</p>
           <div className="hero-actions">
             <Link className="button button-primary" to="/reservations">Reserver une table</Link>
             <Link className="button button-secondary" to="/menu">Voir le menu</Link>
@@ -43,7 +43,7 @@ function HomePage({ currentYear }) {
 
           <div className="about-copy">
             <SectionHeader eyebrow="Notre Heritage" title="La quintessence du gout et de l'elegance" />
-            <p className="lead">Depuis notre ouverture, Algiers Fusion s'efforce de transcender la simple degustation pour offrir un voyage sensoriel complet. Notre cuisine repose sur la purete des produits, l'innovation technique et un service d'une attention rare.</p>
+            <p className="lead">Depuis notre ouverture, khalo fodil s'efforce de transcender la simple degustation pour offrir un voyage sensoriel complet. Notre cuisine repose sur la purete des produits, l'innovation technique et un service d'une attention rare.</p>
             <div className="feature-grid">
               {[
                 ["01.", "Qualite", "Sourcing rigoureux aupres des meilleurs producteurs."],
@@ -87,7 +87,7 @@ function HomePage({ currentYear }) {
 
       <section className="section gallery-section" id="gallery">
         <div className="container">
-          <SectionHeader eyebrow="Immersion" title="Galerie Culinaire" description="Un apercu visuel de nos creations signatures et de l'atmosphere feutree d'Algiers Fusion." />
+          <SectionHeader eyebrow="Immersion" title="Galerie Culinaire" description="Un apercu visuel de nos creations signatures et de l'atmosphere feutree de khalo fodil." />
           <div className="gallery-grid">
             {galleryImages.slice(0, 5).map(([src, label, className]) => (
               <div className={className} key={label}>

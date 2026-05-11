@@ -10,8 +10,8 @@ function MenuPage({ currentYear }) {
   return (
     <>
       <Seo
-        title="Menu du restaurant | Algiers Fusion Alger"
-        description="Parcourez le menu du restaurant Algiers Fusion a Alger avec inspirations algeriennes, americaines et europeennes."
+        title="Menu du restaurant | khalo fodil Alger"
+        description="Parcourez le menu du restaurant khalo fodil a Alger avec inspirations algeriennes, americaines et europeennes."
         path="/menu"
       />
       <header className="menu-hero" id="menu-hero">
@@ -19,7 +19,7 @@ function MenuPage({ currentYear }) {
         <div className="container menu-hero-grid">
           <div className="menu-hero-copy">
             <span className="eyebrow">Experience Gastronomy</span>
-            <h1>Algiers Fusion <span>Restaurant</span></h1>
+            <h1>khalo fodil <span>Restaurant</span></h1>
             <p>A curated intersection of Algerian heritage and contemporary refinement in the heart of Algiers, Algeria&apos;s capital city.</p>
             <div className="hero-actions left">
               <Link className="button button-primary" to="/reservations">Book a Table</Link>

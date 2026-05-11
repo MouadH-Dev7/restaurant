@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://restaurant.mouadh-dev.workers.dev/sitemap.xml
+Sitemap: https://khalo-fodil.mouadh-dev.workers.dev/sitemap.xml

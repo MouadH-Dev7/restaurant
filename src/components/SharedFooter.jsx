@@ -5,7 +5,7 @@ function SharedFooter({ currentYear }) {
     <footer className="footer">
       <div className="container footer-grid footer-grid-rich">
         <div>
-          <h3>Algiers Fusion</h3>
+          <h3>khalo fodil</h3>
           <p>Artisanal Excellence. Une destination gastronomique ou chaque sens est sollicite.</p>
         </div>
         <div>
@@ -25,7 +25,7 @@ function SharedFooter({ currentYear }) {
         </div>
       </div>
       <div className="container footer-bottom">
-        <p>(c) {currentYear} Algiers Fusion. Artisanal Excellence.</p>
+        <p>(c) {currentYear} khalo fodil. Artisanal Excellence.</p>
       </div>
     </footer>
   );

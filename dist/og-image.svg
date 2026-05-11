@@ -18,8 +18,8 @@
   <circle cx="1080" cy="520" r="180" fill="#ffdcc5" opacity="0.08" />
 
   <text x="96" y="150" fill="#ffdcc5" font-size="22" font-family="Georgia, serif" letter-spacing="8">RESTAURANT A ALGER</text>
-  <text x="96" y="270" fill="#fcf9f4" font-size="96" font-family="Georgia, serif" font-style="italic">Algiers</text>
-  <text x="96" y="360" fill="#fcf9f4" font-size="96" font-family="Georgia, serif">Fusion</text>
+  <text x="96" y="270" fill="#fcf9f4" font-size="96" font-family="Georgia, serif" font-style="italic">khalo</text>
+  <text x="96" y="360" fill="#fcf9f4" font-size="96" font-family="Georgia, serif">fodil</text>
 
   <text x="96" y="445" fill="#f6d7c5" font-size="30" font-family="Arial, sans-serif">
     Cuisine elegante, galerie culinaire et reservations en ligne
@@ -27,7 +27,7 @@
 
   <rect x="96" y="495" width="300" height="64" rx="32" fill="#fcf9f4" />
   <text x="132" y="537" fill="#761519" font-size="24" font-family="Arial, sans-serif" font-weight="700">
-    restaurant.mouadh-dev.workers.dev
+    khalo-fodil.mouadh-dev.workers.dev
   </text>
 
   <rect x="906" y="420" width="154" height="154" rx="30" fill="#fcf9f4" opacity="0.95" />

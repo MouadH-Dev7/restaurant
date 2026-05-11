@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://restaurant.mouadh-dev.workers.dev/</loc>
+    <loc>https://khalo-fodil.mouadh-dev.workers.dev/</loc>
   </url>
   <url>
-    <loc>https://restaurant.mouadh-dev.workers.dev/menu</loc>
+    <loc>https://khalo-fodil.mouadh-dev.workers.dev/menu</loc>
   </url>
   <url>
-    <loc>https://restaurant.mouadh-dev.workers.dev/gallery</loc>
+    <loc>https://khalo-fodil.mouadh-dev.workers.dev/gallery</loc>
   </url>
   <url>
-    <loc>https://restaurant.mouadh-dev.workers.dev/reservations</loc>
+    <loc>https://khalo-fodil.mouadh-dev.workers.dev/reservations</loc>
   </url>
 </urlset>

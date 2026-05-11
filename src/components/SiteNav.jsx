@@ -17,7 +17,7 @@ function SiteNav({ mobileOpen, setMobileOpen }) {
             navigate("/");
           }}
         >
-          Algiers Fusion
+          khalo fodil
         </button>
 
         <div className={`nav-links ${mobileOpen ? "open" : ""}`}>

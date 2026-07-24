@@ -20,7 +20,7 @@ function SharedFooter({ currentYear }) {
         <div>
           <h4>Contact</h4>
           <p>12 Rue Didouche Mourad</p>
-          <p>+213 (0) 21 45 67 89</p>
+          <p>Contact us for reservations</p>
           <p>Lun - Sam: 18:00 - 23:00</p>
         </div>
       </div>

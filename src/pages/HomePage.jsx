@@ -34,10 +34,10 @@ function HomePage({ currentYear }) {
         <div className="container about-grid">
           <div className="about-visual">
             <div className="about-photo main-photo">
-              <OptimizedImage src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgcoaM7oMtjH8hWzJmaGB0RfEQ45NvdieSrtwPyXdwFGM4INiBm2-RDJgCpVN1YboSw1v5k7Um7kXgUp76dcB2Uj383d05dGzB-HNMSP-1r-weGojgeRbQzpHfqcyykiSwfIKCh4yQZLu14bXBStR3v4bvVH6J7paFVdnAC-eplYAwWdc2EcSAzNcmldCS1DhKfQ7ZPunWSFkexrChZV44vUhI-a4fiPLRiRgpn-QDLyHXjnzP8ZlnyC1lKlxsFPb3mLtQ-MnGjmk" alt="Chef plating a refined dish" />
+              <OptimizedImage src="/images/chef.jpg" alt="Chef plating a refined dish" />
             </div>
             <div className="about-photo floating-photo">
-              <OptimizedImage src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9IRCtpTK35dv8uaZzhFYgG5ZJKz1uF2jBIJhIcdGCaQSK8jtjU60q-fHiNTvERkEXs2rMgLPDrSQ2lq9W_vwrEdXl5f4adDQlb7bJxjs3XVqD7rEetlDRS-vAEcHOPomEgfSBCrQaIVBN31_xvlWWnagWDhJ6QLN3QipWvWuJYZBXWfmSOOtSt8rMAlaA2DaNrRc81DMPCBNgfIlyfS7EZewE4fzoQzJP4mrZHy6Sp6fKOMdoDiRHT5fJNBNexPv8zSmNihWyqOk" alt="Cellar" />
+              <OptimizedImage src="/images/cellar.jpg" alt="Cellar" />
             </div>
           </div>
 
@@ -119,7 +119,7 @@ function HomePage({ currentYear }) {
             <Link className="button button-primary" to="/reservations">Reserver votre table</Link>
           </div>
           <div className="map-card">
-            <OptimizedImage src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcXrCpCvvnPs9ho3zWXTQn1a29hpe3XwHfpclSOWXQk448lyhQuozd-unsB32R3eMuPJ9vTWi6pt1V4fjKsJHz777tKHFvdraVR6YmiCqXs5l0DqDFU6sgEPyO-9pHPPXBmsPc-ORzwC4rH2CdYgVBOC8ekR3L0Is3gQRWji-a2O-EVPueELJiZ7o8QMGkg_dVPChUZIcVhuGO7hsnPdr_v8rmCitv2KAI0UpmzH0wV1sEmDuxXsC1EU6eQ3In2GQYWCVivr_RJ8Q" alt="Map of Algiers" />
+            <OptimizedImage src="/images/map.jpg" alt="Map of Algiers" />
           </div>
         </div>
       </section>

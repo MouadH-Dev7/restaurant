@@ -29,7 +29,7 @@ function MenuPage({ currentYear }) {
           <div className="menu-hero-visual">
             <div className="menu-hero-card">
               <OptimizedImage
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsDs_yUjcUzuyZ8vsvPjf1tiyTuT-UoQK797-66aKn2340YSMVFexh2kqqUAH4Rgh7u79FVlIzO_9AoustP_2juIKlLkMyWp5P-PUH726i_Dddh66IO1xEavkYmRbUXB14wQuin3N1pjgZMmeVAGsGNYpMewjuT5RCgJukLSVrURK1dyTWeA2SwvXZzNjQrUSSn0qKlZVz5PCIs_pYzzefO5O97J1ruX_0xfZJ4fua1jcZ2fdxdywbpL9pq320JZYzkobDVJ0FjeI"
+                src="/images/interior.jpg"
                 alt="Restaurant interior"
                 eager
               />

@@ -11,7 +11,6 @@ function ReservationsPage({ currentYear }) {
     date: "",
     time: "19:00",
     guests: "2",
-    phone: "",
     notes: "",
   });
 
@@ -27,7 +26,7 @@ function ReservationsPage({ currentYear }) {
       <section className="reservation-hero" id="reservations-hero">
         <div className="reservation-hero-media">
           <OptimizedImage
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEqvFiCsBoRD9SkOx40n-eEVC2BevjS27nWEj57VRWXBKffwsEKYXqPtDGCRNwjjv7qf0qUPkOeKzdoDDgfDNYmIZ2mAfn3zOSwBPjwqdwd6evo-BlYJTRtgVMMo15w5QoMLyDyV3QSgCCHdiIINhrkEtjhlf_EffzkM3XBxKkKqJyAWwZfjwPzDL6bXrmJ444XRCzCr1gcJQYavaPw3jwiiiOFs7lFA7eH3NUQTwvDWEBZu8S3N-MLnnMKTuDNinUtD44CCsdK8c"
+            src="/images/dining.jpg"
             alt="Elegant dining room"
             eager
           />
@@ -66,10 +65,6 @@ function ReservationsPage({ currentYear }) {
                   <span>Nombre de convives</span>
                   <input type="number" min="1" max="12" value={form.guests} onChange={(e) => setField("guests", e.target.value)} />
                 </label>
-                <label className="field">
-                  <span>Telephone</span>
-                  <input type="tel" placeholder="+213 --- -- -- --" value={form.phone} onChange={(e) => setField("phone", e.target.value)} />
-                </label>
               </div>
               <label className="field full">
                 <span>Demandes Speciales</span>
@@ -93,7 +88,7 @@ function ReservationsPage({ currentYear }) {
               ))}
             </div>
             <div className="reservation-map-card">
-              <OptimizedImage src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcXrCpCvvnPs9ho3zWXTQn1a29hpe3XwHfpclSOWXQk448lyhQuozd-unsB32R3eMuPJ9vTWi6pt1V4fjKsJHz777tKHFvdraVR6YmiCqXs5l0DqDFU6sgEPyO-9pHPPXBmsPc-ORzwC4rH2CdYgVBOC8ekR3L0Is3gQRWji-a2O-EVPueELJiZ7o8QMGkg_dVPChUZIcVhuGO7hsnPdr_v8rmCitv2KAI0UpmzH0wV1sEmDuxXsC1EU6eQ3In2GQYWCVivr_RJ8Q" alt="Map of Algiers" />
+              <OptimizedImage src="/images/map.jpg" alt="Map of Algiers" />
               <div className="map-pin">AF</div>
             </div>
           </aside>
